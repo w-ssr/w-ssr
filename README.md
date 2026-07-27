@@ -1,16 +1,26 @@
-## Hi there 👋
+```cs
+public class wssr
+{
+    public string AboutMe =>
+        "Sooo, I am a small time software engineer in training.\n" +
+        "I like creating things, breaking things, and learning how everything works.";
 
-<!--
-**w-ssr/w-ssr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    public string[] MainLanguages =>
+    [
+        "Luau",
+        "C#",
+        "Web Frontend",
+    ];
 
-Here are some ideas to get you started:
+    public string[] Interests =>
+    [
+        "Social Engineering",
+        "Reverse Engineering",
+        "Game Development",
+        "Human Psychology",
+    ];
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public string Personality =>
+        "Curious, creative, and always on the edge of learning something new... :)";
+}
+```
